@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/admin", "destination": "https://satmar-vet-darwon.vercel.app/admin", "permanent": false },
+    { "source": "/admin/:path*", "destination": "https://satmar-vet-darwon.vercel.app/admin/:path*", "permanent": false },
+    { "source": "/login", "destination": "https://satmar-vet-darwon.vercel.app/login", "permanent": false },
+    { "source": "/rezervacia", "destination": "https://satmar-vet-darwon.vercel.app/rezervacia", "permanent": false }
+  ]
+}
