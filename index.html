@@ -1,0 +1,363 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Veterinárna ambulancia MVDr. Tomáš Satmar · veterina v Topoľčanoch — neoficiálny návrh</title>
+<meta name="description" content="Veterinárna ambulancia, Pionierska 5098/2B, Topoľčany — ordinačné hodiny, kontakt a objednanie online. Neoficiálny návrh webu od Darwon.">
+<meta name="theme-color" content="#E8ECE9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#E8ECE9;
+  --white:#FFFFFF;
+  --paper:#FBFBF8;
+  --ink:#101412;
+  --ink-2:#4F5853;
+  --green:#00843D;
+  --green-2:#006D32;
+  --green-3:#005A29;
+  --tint:#E4F1E9;
+  --edge:rgba(16,20,18,.17);
+  --hair:rgba(16,20,18,.12);
+  --lid:#F4F6F4;
+  --side:#D6DDD8;
+  --d:44px;
+  --disp:"Red Hat Display",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Red Hat Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--disp)}
+img,svg{max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.cap{font:500 12px/1.35 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.w{max-width:1200px;margin:0 auto;padding:0 32px}
+.u{text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.u:hover{background-size:100% 1px}
+
+/* pruh — drobná tlač */
+.bar{background:#D9DFDB;color:var(--ink);font:400 12.5px/1.45 var(--mono);padding:8px 0;border-bottom:1px solid var(--hair)}
+.bar p{margin:0}
+
+/* hlavička */
+.hd .w{display:flex;align-items:center;gap:26px;min-height:78px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;margin-right:auto}
+.logo svg{width:30px;height:30px;flex:none}
+.logo span{display:block;font:500 11px/1.2 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.logo b{display:block;font:700 18px/1.15 var(--disp);letter-spacing:-.01em;text-transform:none;color:var(--ink);margin-top:2px}
+.menu{display:flex;gap:24px}
+.menu a{font:500 12.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:6px 0}
+.ph{font:500 16px/1 var(--mono);text-decoration:none}
+.go{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;background:var(--green);color:#fff;text-decoration:none;font:700 15.5px/1 var(--disp);letter-spacing:.01em;border-radius:3px;transition:background-color .2s}
+.go:hover{background:var(--green-2)}
+
+/* hero — čelo krabičky */
+.hero{padding:calc(var(--d) + 26px) 0 0}
+.box{position:relative;margin-right:var(--d);z-index:2;box-shadow:24px 36px 50px -34px rgba(16,20,18,.45)}
+.lid{position:absolute;left:0;right:0;top:calc(var(--d) * -1);height:var(--d);transform-origin:0 100%;transform:skewX(-45deg);background:var(--lid);border:1px solid var(--edge);border-bottom:0}
+.lid::after{content:"";position:absolute;left:0;right:0;top:38%;border-top:1px solid var(--hair)}
+.face{position:relative;background:var(--white);border:1px solid var(--edge)}
+.face::after,.band::after{content:"";position:absolute;top:-1px;bottom:-1px;left:100%;width:var(--d);transform-origin:0 0;transform:skewY(-45deg);background:var(--side);border:1px solid var(--edge);border-left:0}
+.band::after{background:var(--green-3);border-color:var(--green-3)}
+.face{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;padding:34px 44px 34px}
+.face-top{display:flex;align-items:center;gap:12px;margin-bottom:26px}
+.face-top svg{width:44px;height:44px}
+.face-top .cap{color:var(--ink-2)}
+h1{margin:0;font-weight:700}
+h1 .pre{display:block;font:500 15px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:10px}
+h1 .nm{display:block;font:700 74px/.98 var(--disp);letter-spacing:-.025em}
+.sub{margin:18px 0 0;font:500 19px/1.4 var(--disp);color:var(--ink-2)}
+.spec{border-left:1px solid var(--hair);padding-left:28px;display:flex;flex-direction:column;justify-content:space-between}
+.spec dl{margin:0;font:400 13.5px/1.45 var(--mono)}
+.spec dt{color:var(--ink-2);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase}
+.spec dd{margin:2px 0 14px}
+.spec .rt{font:700 30px/1 var(--disp);letter-spacing:-.01em}
+.braille{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-top:8px}
+.braille svg{width:150px;fill:#fff;filter:drop-shadow(.7px .9px 0 rgba(16,20,18,.34)) drop-shadow(-.4px -.4px 0 rgba(255,255,255,1))}
+.braille span{font:400 10.5px/1.3 var(--mono);color:var(--ink-2);letter-spacing:.06em}
+.band{position:relative;background:var(--green);color:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:center;padding:26px 44px 28px;border:1px solid var(--green)}
+.band .cap{color:#CDEBD8;display:block;margin-bottom:8px}
+.dose{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:0;margin:0}
+.dose div{padding:2px 28px 0 0;margin-right:28px;border-right:1px solid rgba(255,255,255,.28)}
+.dose div:last-child{border-right:0;margin-right:0}
+.dose b{display:block;font:500 13px/1.4 var(--mono);letter-spacing:.08em;color:#CDEBD8}
+.dose span{display:block;font:500 24px/1.25 var(--mono);white-space:nowrap;letter-spacing:-.01em}
+.band small{display:block;margin-top:8px;font:400 12.5px/1.4 var(--mono);color:#CDEBD8}
+.act{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.act .row{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.go-w{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 30px;background:#fff;color:var(--green-3);text-decoration:none;font:700 17px/1 var(--disp);border-radius:3px;transition:background-color .2s}
+.go-w:hover{background:var(--tint)}
+.act .ph{color:#fff}
+.act p{margin:0;font:400 12.5px/1.4 var(--mono);color:#CDEBD8;max-width:44ch}
+
+/* príbalový leták */
+.leaflet{position:relative;z-index:1;margin:-64px 0 0;padding:0 0 96px}
+.sheet{background:var(--paper);border:1px solid var(--hair);padding-top:64px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));box-shadow:0 1px 0 rgba(16,20,18,.06)}
+.pn{position:relative;padding:44px 40px 48px}
+.pn:nth-child(3n+2),.pn:nth-child(3n+3){border-left:1px solid var(--hair)}
+.pn:nth-child(3n+2){background:linear-gradient(90deg,rgba(16,20,18,.045),rgba(16,20,18,0) 34px)}
+.pn:nth-child(3n+3){background:linear-gradient(270deg,rgba(16,20,18,.035),rgba(16,20,18,0) 34px)}
+.pn:nth-child(n+4){border-top:1px solid var(--hair)}
+.pn:nth-child(4){background:linear-gradient(180deg,rgba(16,20,18,.04),rgba(16,20,18,0) 28px)}
+.pn:nth-child(5){background:linear-gradient(180deg,rgba(16,20,18,.04),rgba(16,20,18,0) 28px),linear-gradient(90deg,rgba(16,20,18,.045),rgba(16,20,18,0) 34px)}
+.pn:nth-child(6){background:linear-gradient(180deg,rgba(16,20,18,.04),rgba(16,20,18,0) 28px),linear-gradient(270deg,rgba(16,20,18,.035),rgba(16,20,18,0) 34px)}
+.pn p,.pn ul,.pn ol{margin:0 0 14px}
+.pn .cap{color:var(--ink-2)}
+.intro h2{font:700 30px/1.1 var(--disp);letter-spacing:-.02em;margin:10px 0 18px}
+.intro ul{list-style:none;padding:0;font-size:15.5px;color:var(--ink-2)}
+.intro li{padding-left:18px;position:relative;margin-bottom:8px}
+.intro li::before{content:"–";position:absolute;left:0}
+.toc{list-style:none;padding:0;margin:18px 0 0!important;border-top:1px solid var(--hair);counter-reset:t}
+.toc li{border-bottom:1px solid var(--hair);padding:0;margin:0}
+.toc li::before{content:none}
+.toc a{display:flex;gap:12px;align-items:center;min-height:44px;text-decoration:none;font:500 16px/1.3 var(--disp)}
+.toc a span{font:500 14px/1 var(--mono);color:var(--green);width:22px}
+.toc a:hover b{background-size:100% 1px}
+.toc b{font-weight:500;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.pn h2:not(.big){display:flex;gap:12px;align-items:baseline;font:700 25px/1.2 var(--disp);letter-spacing:-.015em;margin:0 0 18px}
+.pn h2 .n{font:500 20px/1 var(--mono);color:var(--green)}
+.sample{border:1px dashed rgba(16,20,18,.3);padding:14px 16px 4px;margin:18px 0 14px}
+.sample .cap{color:var(--green);display:block;margin-bottom:10px}
+.sample ul{list-style:none;padding:0;margin:0 0 10px}
+.sample li{padding:7px 0;border-top:1px solid var(--hair);font-weight:500}
+.sample p{font-size:14px;color:var(--ink-2)}
+.hours{width:100%;border-collapse:collapse;table-layout:fixed;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.hours caption{text-align:left;font:500 11.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding-bottom:10px}
+.hours th{text-align:left;font:700 15px/1 var(--disp);padding:9px 0;width:36px;border-top:1px solid var(--hair)}
+.hours abbr{text-decoration:none}
+.hours td{padding:9px 0 9px 14px;border-top:1px solid var(--hair);font-size:14.5px;text-align:right;white-space:nowrap;width:118px}
+.hours td.trk{width:auto;position:relative;padding:0}
+.hours td.trk::before{content:"";position:absolute;left:0;right:0;top:50%;height:10px;margin-top:-5px;background:repeating-linear-gradient(90deg,rgba(16,20,18,.13) 0 1px,transparent 1px calc(100%/11)) ,rgba(16,20,18,.04)}
+.hours td.trk i{position:absolute;top:50%;height:10px;margin-top:-5px;background:var(--green);margin-left:0}
+.hours .off td,.hours .off th{color:var(--ink-2)}
+.hours tr.axis th,.hours tr.axis td{border-top:1px solid var(--hair);padding:0}
+.hours td.trk-ax{position:relative;height:24px;padding:0}
+.hours td.trk-ax span{position:absolute;top:6px;font-size:11px;color:var(--ink-2);transform:translateX(-50%)}
+.hours td.trk-ax span:first-child{transform:none}
+.hours td.trk-ax span:last-child{transform:translateX(-100%);white-space:nowrap}
+.note{font:400 12.5px/1.5 var(--mono);color:var(--ink-2)}
+.addr{font:700 30px/1.15 var(--disp);letter-spacing:-.02em;margin:0 0 6px!important}
+.addr span{display:block;font-weight:500;font-size:20px;color:var(--ink-2);letter-spacing:0;margin-top:4px}
+.lnk{display:inline-flex;align-items:center;min-height:44px;font-weight:700;color:var(--green-2);text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 calc(100% - 9px)/100% 1px no-repeat}
+.lnk:hover{background-size:100% 2px}
+.how dl{margin:22px 0 0}
+.how dt{font:500 11.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin-top:14px}
+.how dd{margin:2px 0 0;font:500 19px/1.4 var(--disp)}
+.how dd a{text-decoration:none}
+.how .fine{font:400 12.5px/1.45 var(--mono);color:var(--ink-2);margin-top:10px}
+.score{display:flex;align-items:baseline;gap:12px;margin:4px 0 6px!important}
+.score b{font:700 56px/1 var(--disp);letter-spacing:-.03em}
+.score span{font:400 14px/1.35 var(--mono);color:var(--ink-2)}
+.upd{margin-top:22px!important;padding-top:14px;border-top:1px solid var(--hair)}
+
+footer{border-top:1px solid var(--hair);padding:26px 0 30px;font:400 13px/1.5 var(--mono);color:var(--ink-2)}
+footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer p{margin:0}
+.dock{display:none}
+
+@media (max-width:1100px){
+  .menu{display:none}
+  .face{grid-template-columns:1fr 250px}
+  h1 .nm{font-size:60px}
+  .sheet{grid-template-columns:1fr 1fr}
+  .pn:nth-child(n){border-left:0;border-top:0;background:none}
+  .pn:nth-child(2n){border-left:1px solid var(--hair);background:linear-gradient(90deg,rgba(16,20,18,.045),rgba(16,20,18,0) 34px)}
+  .pn:nth-child(n+3){border-top:1px solid var(--hair)}
+}
+@media (max-width:760px){
+  :root{--d:14px}
+  body{font-size:16px;padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+  .w{padding:0 16px}
+  .bar{font-size:11.5px}
+  .hd .w{min-height:64px;gap:12px}
+  .logo b{font-size:15.5px}
+  .logo span{font-size:10px}
+  .logo svg{width:24px;height:24px}
+  .hd .ph{display:none}
+  .hd .go{min-height:44px;padding:0 14px;font-size:14px}
+  .hero{padding-top:calc(var(--d) + 14px)}
+  .box{box-shadow:10px 18px 30px -22px rgba(16,20,18,.5)}
+  .face{grid-template-columns:1fr;gap:20px;padding:22px 18px 20px}
+  .face-top{margin-bottom:18px}
+  .face-top svg{width:34px;height:34px}
+  h1 .pre{font-size:12px;margin-bottom:8px}
+  h1 .nm{font-size:40px;line-height:1.02}
+  .sub{font-size:16.5px;margin-top:12px}
+  .spec{border-left:0;padding-left:0;border-top:1px solid var(--hair);padding-top:16px}
+  .spec dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;align-items:baseline}
+  .spec dd{margin:0}
+  .spec .rt{font-size:22px}
+  .braille svg{width:120px}
+  .band{grid-template-columns:1fr;gap:20px;padding:20px 18px 22px}
+  .dose{grid-template-columns:1fr;margin-top:4px}
+  .dose div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:7px 0;margin:0;border-right:0;border-top:1px solid rgba(255,255,255,.24)}
+  .dose div:last-child{border-bottom:1px solid rgba(255,255,255,.24)}
+  .dose span{font-size:18px}
+  .dose b{font-size:12px}
+  .go-w{width:100%}
+  .act .row{width:100%;gap:10px}
+  .leaflet{margin-top:-40px;padding-bottom:56px}
+  .sheet{grid-template-columns:1fr;padding-top:40px}
+  .pn{padding:30px 18px 30px}
+  .pn:nth-child(n){border-left:0;background:none}
+  .pn:nth-child(n+2){border-top:1px solid var(--hair);background:linear-gradient(180deg,rgba(16,20,18,.04),rgba(16,20,18,0) 26px)}
+  .intro h2{font-size:28px}
+  .pn h2:not(.big){font-size:23px}
+  .addr{font-size:26px}
+  .score b{font-size:46px}
+  .dock{display:grid;grid-template-columns:1fr 1.2fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--white);border-top:1px solid var(--edge)}
+  .dock a{display:flex;align-items:center;justify-content:center;min-height:48px;text-decoration:none;font:700 15.5px/1 var(--disp);border-radius:3px}
+  .dock .c{border:1.5px solid var(--ink);color:var(--ink)}
+  .dock .o{background:var(--green);color:#fff}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="bar"><div class="w"><p>Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od Darwon · rezervácia vedie do ukážkovej administrácie, podnik ju nedostane</p></div></div>
+
+<header class="hd">
+  <div class="w">
+    <a class="logo" href="#" aria-label="Veterinárna ambulancia MVDr. Tomáš Satmar — na začiatok">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00843D" d="M8.5 2h7v6.5H22v7h-6.5V22h-7v-6.5H2v-7h6.5z"/></svg>
+      <span>Veterinárna ambulancia<b>MVDr. Tomáš Satmar</b></span>
+    </a>
+    <nav class="menu" aria-label="Hlavná navigácia">
+      <a class="u" href="#co-robime">Čo robíme</a>
+      <a class="u" href="#kedy-prist">Kedy prísť</a>
+      <a class="u" href="#kde-nas-najdete">Kde nás nájdete</a>
+    </nav>
+    <a class="ph u" href="tel:+421907333976">0907 333 976</a>
+    <a class="go" href="https://satmar-vet-darwon.vercel.app/rezervacia">Objednať sa</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="w">
+    <div class="box">
+      <div class="lid" aria-hidden="true"></div>
+      <div class="face">
+        <div>
+          <div class="face-top">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00843D" d="M8.5 2h7v6.5H22v7h-6.5V22h-7v-6.5H2v-7h6.5z"/></svg>
+            <span class="cap">Topoľčany · Pionierska ulica</span>
+          </div>
+          <h1 id="h1"><span class="pre">Veterinárna ambulancia</span> <span class="nm">MVDr. Tomáš Satmar</span></h1>
+          <p class="sub">Ordinačné hodiny, adresa a objednanie na jednom mieste.</p>
+        </div>
+        <div class="spec">
+          <dl>
+            <dt>Č. šarže</dt><dd>Pionierska 5098/2B<br>955 01 Topoľčany</dd>
+            <dt>Tel.</dt><dd><a class="u" href="tel:+421907333976">0907 333 976</a></dd>
+            <dt>Hodnotenie</dt><dd><span class="rt">4,8 ★</span><br>190 hodnotení · Google</dd>
+          </dl>
+          <div class="braille" aria-hidden="true">
+            <span>Braille</span>
+            <svg viewBox="0 0 47.9 7"><circle cx="1.00" cy="1.00" r="0.75"/><circle cx="1.00" cy="3.50" r="0.75"/><circle cx="1.00" cy="6.00" r="0.75"/><circle cx="3.50" cy="6.00" r="0.75"/><circle cx="7.20" cy="1.00" r="0.75"/><circle cx="9.70" cy="3.50" r="0.75"/><circle cx="13.40" cy="3.50" r="0.75"/><circle cx="13.40" cy="6.00" r="0.75"/><circle cx="15.90" cy="1.00" r="0.75"/><circle cx="15.90" cy="3.50" r="0.75"/><circle cx="19.60" cy="1.00" r="0.75"/><circle cx="22.10" cy="3.50" r="0.75"/><circle cx="25.80" cy="1.00" r="0.75"/><circle cx="25.80" cy="3.50" r="0.75"/><circle cx="25.80" cy="6.00" r="0.75"/><circle cx="28.30" cy="3.50" r="0.75"/><circle cx="32.00" cy="3.50" r="0.75"/><circle cx="34.50" cy="1.00" r="0.75"/><circle cx="38.20" cy="1.00" r="0.75"/><circle cx="38.20" cy="6.00" r="0.75"/><circle cx="40.70" cy="1.00" r="0.75"/><circle cx="40.70" cy="3.50" r="0.75"/><circle cx="44.40" cy="1.00" r="0.75"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="band">
+        <div>
+          <span class="cap">Dávkovanie · ordinačné hodiny</span>
+          <div class="dose"><div><b>Po – Pi</b><span>8:00–17:00</span></div><div><b>So</b><span>9:00–12:00</span></div><div><b>Ne</b><span>zatvorené</span></div></div>
+          <small>Podľa údajov v Google, 9. 10. 2026 — overiť.</small>
+        </div>
+        <div class="act">
+          <div class="row">
+            <a class="go-w" href="https://satmar-vet-darwon.vercel.app/rezervacia">Objednať sa</a>
+            <a class="ph u" href="tel:+421907333976">alebo volajte 0907 333 976</a>
+          </div>
+          <p>Online rezervácia — vyberiete si deň a čas, potvrdenie príde e-mailom.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="leaflet" aria-label="Písomná informácia pre používateľa">
+  <div class="w">
+    <div class="sheet">
+      <div class="pn intro">
+        <p class="cap">Písomná informácia pre používateľa</p>
+        <h2 class="big">Veterinárna ambulancia v Topoľčanoch</h2>
+        <ul>
+          <li>Túto písomnú informáciu si uschovajte. Možno bude potrebné, aby ste si ju znovu prečítali.</li>
+          <li>Ak máte akékoľvek ďalšie otázky, zavolajte do ambulancie.</li>
+        </ul>
+        <p class="cap">V tejto písomnej informácii sa dozviete</p>
+        <ol class="toc">
+          <li><a href="#co-robime"><span>1.</span><b>Čo robíme</b></a></li>
+          <li><a href="#kedy-prist"><span>2.</span><b>Kedy prísť</b></a></li>
+          <li><a href="#kde-nas-najdete"><span>3.</span><b>Kde nás nájdete</b></a></li>
+          <li><a href="#ako-sa-objednat"><span>4.</span><b>Ako sa objednať</b></a></li>
+          <li><a href="#dalsie-informacie"><span>5.</span><b>Obsah balenia a ďalšie informácie</b></a></li>
+        </ol>
+      </div>
+
+      <div class="pn" id="co-robime">
+        <h2><span class="n">1.</span>Čo robíme</h2>
+        <p>Veterinárna ambulancia na Pionierskej ulici v Topoľčanoch.</p>
+        <div class="sample">
+          <span class="cap">Ukážka návrhu</span>
+          <ul>
+            <li>Preventívne prehliadky</li>
+            <li>Vyšetrenie a ošetrenie</li>
+            <li>Poradenstvo</li>
+          </ul>
+          <p>Všeobecné kategórie — konkrétny zoznam služieb doplní ambulancia.</p>
+        </div>
+      </div>
+
+      <div class="pn" id="kedy-prist">
+        <h2><span class="n">2.</span>Kedy prísť</h2>
+        <table class="hours">
+          <caption>Dávkovanie — ordinačné hodiny</caption>
+          <tr><th scope="row"><abbr title="Pondelok">Po</abbr></th><td class="trk" aria-hidden="true"><i style="left:9.09%;width:81.82%"></i></td><td>8:00–17:00</td></tr>
+          <tr><th scope="row"><abbr title="Utorok">Ut</abbr></th><td class="trk" aria-hidden="true"><i style="left:9.09%;width:81.82%"></i></td><td>8:00–17:00</td></tr>
+          <tr><th scope="row"><abbr title="Streda">St</abbr></th><td class="trk" aria-hidden="true"><i style="left:9.09%;width:81.82%"></i></td><td>8:00–17:00</td></tr>
+          <tr><th scope="row"><abbr title="Štvrtok">Št</abbr></th><td class="trk" aria-hidden="true"><i style="left:9.09%;width:81.82%"></i></td><td>8:00–17:00</td></tr>
+          <tr><th scope="row"><abbr title="Piatok">Pi</abbr></th><td class="trk" aria-hidden="true"><i style="left:9.09%;width:81.82%"></i></td><td>8:00–17:00</td></tr>
+          <tr><th scope="row"><abbr title="Sobota">So</abbr></th><td class="trk" aria-hidden="true"><i style="left:18.18%;width:27.27%"></i></td><td>9:00–12:00</td></tr>
+          <tr class="off"><th scope="row"><abbr title="Nedeľa">Ne</abbr></th><td class="trk" aria-hidden="true"></td><td>zatvorené</td></tr>
+          <tr class="axis" aria-hidden="true"><th></th><td class="trk-ax"><span style="left:0">7</span><span style="left:45.45%">12</span><span style="left:100%">18 h</span></td><td></td></tr>
+        </table>
+        <p class="note" style="margin-top:14px">Údaje z katalógu v Google (9. 10. 2026) — pred zverejnením overiť s ambulanciou.</p>
+      </div>
+
+      <div class="pn" id="kde-nas-najdete">
+        <h2><span class="n">3.</span>Kde nás nájdete</h2>
+        <p class="addr">Pionierska 5098/2B<span>955 01 Topoľčany</span></p>
+        <a class="lnk" href="https://www.google.com/maps/search/Veterin%C3%A1rna+ambulancia+Satmar+Topo%C4%BE%C4%8Dany" rel="noopener">Otvoriť v Mapách Google →</a>
+      </div>
+
+      <div class="pn how" id="ako-sa-objednat">
+        <h2><span class="n">4.</span>Ako sa objednať</h2>
+        <a class="go" href="https://satmar-vet-darwon.vercel.app/rezervacia">Objednať sa online</a>
+        <p class="fine">Online rezervácia — vyberiete si deň a čas, potvrdenie príde e-mailom.</p>
+        <dl>
+          <dt>Telefonicky</dt><dd><a class="u mono" href="tel:+421907333976">0907 333 976</a></dd>
+          <dt>E-mailom</dt><dd><a class="u" href="mailto:satmar@azet.sk">satmar@azet.sk</a></dd>
+        </dl>
+      </div>
+
+      <div class="pn" id="dalsie-informacie">
+        <h2><span class="n">5.</span>Obsah balenia a ďalšie informácie</h2>
+        <p class="score"><b>4,8 ★</b><span>190 hodnotení<br>na Googli</span></p>
+        <p class="note">Súhrn hodnotení z Google profilu ambulancie, 9. 10. 2026.</p>
+        <p class="note upd">Táto písomná informácia bola naposledy aktualizovaná v októbri 2026.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="w"><p>Neoficiálny návrh webu · Darwon · 2026</p><p>Pionierska 5098/2B, 955 01 Topoľčany</p></div></footer>
+
+<nav class="dock" aria-label="Rýchle akcie">
+  <a class="c" href="tel:+421907333976">Zavolať</a>
+  <a class="o" href="https://satmar-vet-darwon.vercel.app/rezervacia">Objednať sa</a>
+</nav>
